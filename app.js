@@ -73,4 +73,3 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"undefined"!=typeo
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./scss/style.scss");var e=require("./app/app");require("./app/listeners");var n=require("./templates/spinner");window.onload=function(){"loading"==document.readyState?((0,n.spinner)(),document.addEventListener("DOMContentLoaded",e.app)):((0,n.spinner)(),setTimeout(function(){(0,n.removeSpinner)(),(0,e.app)()},100))};
 },{"./scss/style.scss":"Gg4U","./app/app":"Lent","./app/listeners":"D6WM","./templates/spinner":"kdws"}]},{},["Focm"], null)
-//# sourceMappingURL=/src.a405a2b0.js.map
